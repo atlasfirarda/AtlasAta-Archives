@@ -10,7 +10,7 @@
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
         Background="Transparent"
-        Icon="C:\Templates\Default\Images\favicon.png" RenderOptions.BitmapScalingMode="HighQuality">
+        Icon="C:\HomeWork1\Default\Images\favicon.png" RenderOptions.BitmapScalingMode="HighQuality">
     <StackPanel Width="920" Height="620">
         
         <Border Background="#252525"
