@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using System.Net.Mime;
 using System.Windows;
 using System.Windows.Input;
@@ -96,54 +96,57 @@ namespace Default
                 double performanceScore = (requiredScore * 3) - (exam1 + exam2);
                 double averageScore = (exam1 + exam2) / 2;
                 
-                if (performanceScore >= 0 && averageScore >= 0)
+                LabelExam1.Visibility = Visibility.Hidden;
+                LabelExam2.Visibility = Visibility.Hidden;
+                TextExam1.Visibility = Visibility.Hidden;
+                TextExam2.Visibility = Visibility.Hidden;
+                ButtonCalculate.Visibility = Visibility.Hidden;
+                LabelExam1.Content = "Your Average Score;";
+                LabelExam2.Content = averageScore.ToString("0.00");
+                LabelExam1.Visibility = Visibility.Visible;
+                LabelExam2.Visibility = Visibility.Visible;
+                    
+                await Task.Delay(2000);
+
+                if (averageScore < requiredScore)
                 {
                     LabelExam1.Visibility = Visibility.Hidden;
                     LabelExam2.Visibility = Visibility.Hidden;
                     TextExam1.Visibility = Visibility.Hidden;
                     TextExam2.Visibility = Visibility.Hidden;
                     ButtonCalculate.Visibility = Visibility.Hidden;
-                    LabelExam1.Content = "Your Average Score;";
-                    LabelExam2.Content = averageScore.ToString("0.00");
+                    LabelExam1.Content = "You must have performance score;";
+                    LabelExam2.Content = performanceScore.ToString("0.00");
                     LabelExam1.Visibility = Visibility.Visible;
                     LabelExam2.Visibility = Visibility.Visible;
-                    
-                    await Task.Delay(2000);
-
-                    if (averageScore < requiredScore)
-                    {
-                        LabelExam1.Visibility = Visibility.Hidden;
-                        LabelExam2.Visibility = Visibility.Hidden;
-                        TextExam1.Visibility = Visibility.Hidden;
-                        TextExam2.Visibility = Visibility.Hidden;
-                        ButtonCalculate.Visibility = Visibility.Hidden;
-                        LabelExam1.Content = "You must have performance score;";
-                        LabelExam2.Content = performanceScore.ToString("0.00");
-                        LabelExam1.Visibility = Visibility.Visible;
-                        LabelExam2.Visibility = Visibility.Visible;
-                    }
                     
                     await Task.Delay(3000);
                     
-                    LabelExam1.Visibility = Visibility.Hidden;
-                    LabelExam2.Visibility = Visibility.Hidden;
-                    
-                    LabelExam1.Content = "1st Exam Score";
-                    LabelExam2.Content = "2nd Exam Score";
-                    
-                    TextExam1.Clear();
-                    TextExam2.Clear();
-                    
-                    LabelExam1.Visibility = Visibility.Visible;
-                    LabelExam2.Visibility = Visibility.Visible;
-                    TextExam1.Visibility = Visibility.Visible;
-                    TextExam2.Visibility = Visibility.Visible;
-                    ButtonCalculate.Visibility = Visibility.Visible;
                 }
-            } else
+                else
+                {
+                    await Task.Delay(750);
+                }
+                    
+                LabelExam1.Visibility = Visibility.Hidden;
+                LabelExam2.Visibility = Visibility.Hidden;
+                
+                LabelExam1.Content = "1st Exam Score";
+                LabelExam2.Content = "2nd Exam Score";
+                
+                TextExam1.Clear();
+                TextExam2.Clear();
+                
+                LabelExam1.Visibility = Visibility.Visible;
+                LabelExam2.Visibility = Visibility.Visible;
+                TextExam1.Visibility = Visibility.Visible;
+                TextExam2.Visibility = Visibility.Visible;
+                ButtonCalculate.Visibility = Visibility.Visible;
+            }
+            else
             {
                 MessageBox.Show("Please enter a valid number!", "AtlasAta's Program", MessageBoxButton.OK, MessageBoxImage.Error);
-                
+        
                 TextExam1.Clear();
                 TextExam2.Clear();
             }
