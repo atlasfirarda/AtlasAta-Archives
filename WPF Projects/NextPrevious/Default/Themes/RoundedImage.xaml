@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="RoundedImageStyle" TargetType="Image">
+        <Setter Property="Stretch" Value="Fill"/>
+        <Setter Property="Clip">
+            <Setter.Value>
+                <RectangleGeometry RadiusX="20" RadiusY="20"
+                                   Rect="0,0,720,360"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+</ResourceDictionary>

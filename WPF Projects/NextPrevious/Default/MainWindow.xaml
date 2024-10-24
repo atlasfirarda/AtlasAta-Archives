@@ -1,0 +1,109 @@
+﻿<Window x:Class="Default.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="AtlasAta's Program" Height="600" Width="920"
+        WindowState="Normal"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Icon="C:\NextPrevious\Default\Images\favicon.png" RenderOptions.BitmapScalingMode="HighQuality">
+    <StackPanel Width="920" Height="620">
+        
+        <Border Background="#151515"
+                BorderThickness="0"
+                CornerRadius="36,15, 27,27"
+                Width="920" Height="620">
+            <Grid VerticalAlignment="Top">
+            
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="530"/>
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="920"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                
+                <StackPanel Grid.Row="1" Grid.Column="0">
+                    
+                    <!-- Code entrance -->
+                    
+                    <Border Background="Transparent" 
+                            CornerRadius="18" 
+                            BorderThickness="0"
+                            Padding="5">
+                        <Image x:Name="ImageBox" Source="C:/NextPrevious/Default/Images/IMG_20240302_1740.jpg" 
+                               Width="720" 
+                               Height="360" 
+                               Margin="30"
+                               MouseLeftButtonDown="ImageBox_Click"
+                               Style="{StaticResource RoundedImageStyle}">
+                            
+                        </Image>
+                    </Border>
+                    
+                    <Grid>
+                        <Button Margin="102,0,0,0"
+                                HorizontalAlignment="Left" 
+                                Height="45"
+                                Width="144"
+                                Content="Previous"
+                                Style="{StaticResource ModernButton}"
+                                x:Name="PreviousButton"
+                                IsEnabled="False"
+                                Click="ImageBox_Previous"/>
+                        <Button Margin="0,0,102,0"
+                                HorizontalAlignment="Right" 
+                                Height="45"
+                                Width="144"
+                                Content="Next"
+                                x:Name="NextButton"
+                                Click="ImageBox_Next"
+                                Style="{StaticResource ModernButton}"/>
+                    </Grid>
+                    
+                    <!-- Code End -->
+                    
+                </StackPanel>
+                
+                <Border Grid.Column="0" Grid.Row="0" Background="#202020"
+                        BorderThickness="0"
+                        CornerRadius="30"
+                        Height="50"
+                        Margin="20,10,20,0"
+                        MouseDown="WindowDrag">
+                
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Right">
+                    
+                        <Image VerticalAlignment="Center"
+                               HorizontalAlignment="Left"
+                               Margin="0,0,295,0"
+                               Style="{StaticResource HoverImageStyle3}"
+                               MouseLeftButtonDown="faviconLClick"/>
+                        <TextBlock Text="AtlasAta"
+                                   FontFamily="Cascadia Code NF"
+                                   FontSize="24"
+                                   Margin="0,0,320,0"
+                                   VerticalAlignment="Center"
+                                   Style="{StaticResource HoverTextStyle4}"
+                                   MouseLeftButtonDown="textLClick"
+                                   MouseRightButtonDown="textRClick"/>
+                    
+                        <Image
+                               Margin="0,0,10,0"
+                               Style="{StaticResource HoverImageStyle2}"
+                               MouseLeftButtonDown="WindowMinimize"/>
+                        <Image Style="{StaticResource HoverImageStyle}"
+                               MouseLeftButtonDown="WindowClose"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
+    </StackPanel>
+    
+</Window>
