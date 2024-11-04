@@ -1,0 +1,10 @@
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\bin\Debug\HomeWork4.exe.config
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\bin\Debug\HomeWork4.exe
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\bin\Debug\HomeWork4.pdb
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\obj\Debug\HomeWork4.csproj.AssemblyReference.cache
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\obj\Debug\HomeWork4.Properties.Resources.resources
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\obj\Debug\HomeWork4.csproj.GenerateResource.cache
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\obj\Debug\HomeWork4.csproj.CoreCompileInputs.cache
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\obj\Debug\HomeWork4.exe
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\obj\Debug\HomeWork4.pdb
+C:\atlasfirarda\#RIDER (C#)\School\HomeWork4\obj\Debug\HomeWork4.HomeWork4.resources
