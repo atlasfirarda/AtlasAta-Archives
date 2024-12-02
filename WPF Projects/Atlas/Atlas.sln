@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlas", "Atlas.csproj", "{CC651532-1D68-4FD8-A2E1-19E61C1F6A55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC651532-1D68-4FD8-A2E1-19E61C1F6A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC651532-1D68-4FD8-A2E1-19E61C1F6A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC651532-1D68-4FD8-A2E1-19E61C1F6A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC651532-1D68-4FD8-A2E1-19E61C1F6A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,149 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Toggleable Modern RightCheck CheckBox Style -->
+    <Style TargetType="CheckBox" x:Key="ModernCheckBoxRightStyle">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Focusable" Value="True" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <Grid>
+                        <Border 
+                            x:Name="MainBorder"
+                            Background="Transparent"
+                            BorderThickness="5"
+                            BorderBrush="#202020"
+                            CornerRadius="12"
+                            Padding="10,5"
+                            SnapsToDevicePixels="True"
+                            Width="50"
+                            HorizontalAlignment="Right"
+                            Height="50">
+                            <Border.Clip>
+                                <RectangleGeometry Rect="0,0,65,65" RadiusX="12" RadiusY="12"/>
+                            </Border.Clip>
+                        </Border>
+                        
+                        <Grid>
+                            <Border 
+                                x:Name="MainBorder2"
+                                Background="#202020"
+                                BorderThickness="0"
+                                Padding="10,5"
+                                Margin="0,0,55,0"
+                                CornerRadius="15"
+                                SnapsToDevicePixels="True"
+                                Width="300"
+                                Height="50">
+                                <ContentPresenter 
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    TextBlock.Foreground="White"
+                                    TextBlock.FontFamily="CaskaydiaCove NF Regular"
+                                    TextBlock.FontSize="15"
+                                    Opacity="0.21"
+                                    x:Name="MainContentPresenter">
+                                </ContentPresenter>
+                                <Border.Clip>
+                                    <RectangleGeometry Rect="0,0,300,50" RadiusX="12" RadiusY="12"/>
+                                </Border.Clip>
+                            </Border>
+                        </Grid>
+                        
+                        
+                        
+                    </Grid>
+                    <!-- Event Triggers -->
+                    <ControlTemplate.Triggers>
+                        
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="MainBorder" Property="Background" Value="#303030" />
+                        </Trigger>
+                        
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter TargetName="MainBorder" Property="Background" Value="Transparent" />
+                        </Trigger>
+                        
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!-- Toggleable Modern RightCheck CheckBox Style -->
+    <Style TargetType="CheckBox" x:Key="ModernCheckBoxLeftStyle">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Focusable" Value="True" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <Grid>
+                        <Border 
+                            x:Name="MainBorder"
+                            Background="Transparent"
+                            BorderThickness="5"
+                            BorderBrush="#202020"
+                            CornerRadius="12"
+                            Padding="10,5"
+                            SnapsToDevicePixels="True"
+                            Width="50"
+                            HorizontalAlignment="Left"
+                            Height="50">
+                            <Border.Clip>
+                                <RectangleGeometry Rect="0,0,65,65" RadiusX="12" RadiusY="12"/>
+                            </Border.Clip>
+                        </Border>
+                        
+                        <Grid>
+                            <Border 
+                                x:Name="MainBorder2"
+                                Background="#202020"
+                                BorderThickness="0"
+                                Padding="10,5"
+                                Margin="55,0,0,0"
+                                CornerRadius="15"
+                                SnapsToDevicePixels="True"
+                                Width="300"
+                                Height="50">
+                                <ContentPresenter 
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    TextBlock.Foreground="White"
+                                    TextBlock.FontFamily="CaskaydiaCove NF Regular"
+                                    TextBlock.FontSize="15"
+                                    Opacity="0.21"
+                                    x:Name="MainContentPresenter">
+                                </ContentPresenter>
+                                <Border.Clip>
+                                    <RectangleGeometry Rect="0,0,300,50" RadiusX="12" RadiusY="12"/>
+                                </Border.Clip>
+                            </Border>
+                        </Grid>
+                        
+                        
+                        
+                    </Grid>
+                    <!-- Event Triggers -->
+                    <ControlTemplate.Triggers>
+                        
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="MainBorder" Property="Background" Value="#303030" />
+                        </Trigger>
+                        
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter TargetName="MainBorder" Property="Background" Value="Transparent" />
+                        </Trigger>
+                        
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

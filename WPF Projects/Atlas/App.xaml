@@ -1,0 +1,17 @@
+﻿<Application x:Class="Atlas.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Atlas"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <ResourceDictionary>
+             <ResourceDictionary.MergedDictionaries>
+                 <ResourceDictionary Source="assets/styles/Textbox.xaml"/>
+                 <ResourceDictionary Source="assets/styles/Combobox.xaml"/>
+                 <ResourceDictionary Source="assets/styles/Checkbox.xaml"/>
+                 <ResourceDictionary Source="assets/styles/Listbox.xaml"/>
+                 <ResourceDictionary Source="assets/styles/Button.xaml"/>
+             </ResourceDictionary.MergedDictionaries>
+         </ResourceDictionary>
+    </Application.Resources>
+</Application>
