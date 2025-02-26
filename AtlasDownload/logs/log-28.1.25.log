@@ -1,0 +1,19 @@
+7.8.56: --- STARTED TO LOGGING ---
+
+7.8.56: [SUCCESS] FFmpeg.exe Path: [C:\\ffmpeg\\bin\\ffmpeg.exe]
+
+7.8.56: [SUCCESS] FFprobe.exe Path: [C:\\ffmpeg\\bin\\ffprobe.exe]
+
+7.8.56: [SUCCESS] The choosen videoPath is Video File: [C:\\Users\\atlasfirarda\\Downloads\\bide seviyom ded.mp4]
+
+7.8.56: [SUCCESS] The choosen method is: [veryfast]
+
+7.8.56: [SUCCESS] Audio codec is: [aac]
+
+7.8.56: [SUCCESS] Video duration is: [182.067664 seconds]
+
+7.8.56: [WARNING] The video is converting to wav: [C:\\Users\\atlasfirarda\\Downloads\\bide seviyom ded.mp4]
+
+7.8.56: [SUCCESS] The video is successfully converted to wav: [C:\\Users\\atlasfirarda\\Downloads\\bide seviyom ded.wav]
+
+7.8.56: --- STOPPED TO LOGGING ---

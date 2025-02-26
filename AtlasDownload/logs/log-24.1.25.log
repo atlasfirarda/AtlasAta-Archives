@@ -1,0 +1,15 @@
+21.33.37: --- STARTED TO LOGGING ---
+
+21.33.37: [SUCCESS] FFmpeg.exe Path: [C:\\ffmpeg\\bin\\ffmpeg.exe]
+
+21.33.37: [SUCCESS] FFprobe.exe Path: [C:\\ffmpeg\\bin\\ffprobe.exe]
+
+21.33.37: [SUCCESS] The choosen videoPath is Video File: [C:\\Users\\atlasfirarda\\Downloads\\BKDEVS (Glitch Opener by AtlasAta).mov]
+
+21.33.37: [SUCCESS] The choosen method is: [veryfast]
+
+21.33.37: [SUCCESS] Video codec is: [prores]
+
+21.33.37: [SUCCESS] Video duration is: [12.066667]
+
+21.33.37: [WARNING] The video is converting to mp4: [C:\\Users\\atlasfirarda\\Downloads\\BKDEVS (Glitch Opener by AtlasAta).mov]
