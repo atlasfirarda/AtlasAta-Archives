@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AtlasTemplate (WFA)/1.0.0": {
+        "runtime": {
+          "AtlasTemplate (WFA).dll": {}
+        },
+        "resources": {
+          "en/AtlasTemplate (WFA).resources.dll": {
+            "locale": "en"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AtlasTemplate (WFA)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

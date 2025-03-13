@@ -1,0 +1,19 @@
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\bin\Debug\net9.0-windows\AtlasTemplate (WFA).exe
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\bin\Debug\net9.0-windows\AtlasTemplate (WFA).deps.json
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\bin\Debug\net9.0-windows\AtlasTemplate (WFA).runtimeconfig.json
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\bin\Debug\net9.0-windows\AtlasTemplate (WFA).dll
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\bin\Debug\net9.0-windows\AtlasTemplate (WFA).pdb
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\bin\Debug\net9.0-windows\en\AtlasTemplate (WFA).resources.dll
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate__WFA_.Template.resources
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate__WFA_.Template.en.resources
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate (WFA).csproj.GenerateResource.cache
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate (WFA).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate (WFA).AssemblyInfoInputs.cache
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate (WFA).AssemblyInfo.cs
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate (WFA).csproj.CoreCompileInputs.cache
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\en\AtlasTemplate (WFA).resources.dll
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate (WFA).dll
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\refint\AtlasTemplate (WFA).dll
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate (WFA).pdb
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\AtlasTemplate (WFA).genruntimeconfig.cache
+C:\Users\atlasfirarda\source\repos\AtlasTemplate (WFA)\obj\Debug\net9.0-windows\ref\AtlasTemplate (WFA).dll
