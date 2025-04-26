@@ -6,7 +6,4 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
     </PropertyGroup>
-    <ItemGroup>
-      <PackageReference Include="YoutubeDLSharp" Version="1.1.1" />
-    </ItemGroup>
 </Project>
